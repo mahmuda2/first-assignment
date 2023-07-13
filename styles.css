@@ -10,38 +10,87 @@ body{
  .banner{
     width: 1920px;
     height: 850px;
-    flex-shrink: 0;
+    background-position: right 50px;
+    background-repeat: no-repeat;
+    background-color: #FCEEF1;
+
+ }
+ .banner-img{
+    margin-top: 50px;
+    margin-left: 345px;
+    margin-right: 240px;
+    width: 635px;
+    height: 800px;
+    flex-shrink: 0
  }
 
 .banner-text{
     color: #272727;
     font-family: Lato;
     font-size: 80px;
-    font-style: normal;
     font-weight: 800;
-    line-height: normal;
+    padding-top: 197px;
+    padding-left: 240px;
 }
 .banner-p{
     color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 166.667% */
+    line-height: 30px; 
+    padding-top: 32px;
+    padding-left: 240px;
 }
 .banner-btn{
+    width: 177px;
+    height: 64px;
     border-radius: 8px;
     background: #E55473;
-    display: inline-flex;
-    padding: 20px 43px;
+    font-size: 20px;
+    font-weight: 700;
     align-items: flex-start;
     gap: 10px;
+    margin-top: 32px;
+    margin-left: 240px;
+    margin-bottom: 147px;
+    border-radius: 8px;
+    background: #E55473;
+    color: white;
 }
 .banner-img{
-    margin-top: 50px;
-    margin-left: 345px;
-    margin-right: 240px;
-    width: 635px;
-    height: 800px;
-    flex-shrink: 0;
+
     
+}
+.Flower{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.img1{
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    background-repeat: no-repeat;
+    background-position: center bottom ;
+}
+.img2{
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    background-repeat: no-repeat;
+    background-position: center bottom ;
+}
+.img3{
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    color:#477D11 ;
+    background-repeat: no-repeat;
+    background-position: center bottom ;
 }
